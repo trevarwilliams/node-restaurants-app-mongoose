@@ -2,8 +2,9 @@ language: node_js
 node_js: node
 services:
 - mongodb
+
 deploy:
+  provider: heroku
   api_key:
     secure: df8b14c1-0639-4449-861b-1bf325386784
-  provider: heroku
   app: dry-beach-29274
